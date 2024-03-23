@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>project</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row my-3">
+            <div class="col-8">
+                <h1>project summary</h1>
+            </div>
+            <div class="col-4">
+                <div class="btn">
+                    <button id="addPro">
+                        <i class="fa-solid fa-plus"></i>
+                        <br>
+                        add pro
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="addForm">
+        <div class="head">
+            <h2>Add a Note</h2>
+            <button class="icon"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="inputs">
+            <p>Project Name</p>
+            <input type="text" id="tittle" value="">
+        </div>
+        <div class="inputs">
+            <p>Discription</p>
+            <textarea rows="5px" cols="30" id="discription" value=""></textarea>
+        </div>
+        <div class="inputs">
+            Due date: <input type="date" id="myDate">
+        </div>
+        <button id="addBtn">Add Note</button>
+    </div>
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Project Name</th>
+                    <th scope="col">Total</th>
+                    <th scope="col">Draft</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- <tr>
+                    <th scope="row">1</th>
+                    <td><a href="#" class="text-decoration-none text-dark fw-bold">Mark</a></td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+    
+        
+    <script src="js/index.js"></script>
+</body>
+</html>
